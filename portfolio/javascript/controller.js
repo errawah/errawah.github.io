@@ -190,11 +190,11 @@ Controller.prototype.gk_MouseClicked = function (e, the_element, move_element) {
 		case "id_dialogbox_btn2":
 			$("#id_dialogbox").hide();
 			if ($(".modal-title").text() == "Solitaire") {
-				window.open("https://github.com/errawah/errawah.github.io/tree/master/mymodel/solitaire", "_blank");
+				window.open("https://github.com/errawah/errawah.github.io/tree/master/solitaire", "_blank");
 			} else if ($(".modal-title").text() == "Chat Application") {
-				window.open("https://github.com/errawah/errawah.github.io/tree/master/mymodel/chat", "_blank");
+				window.open("https://github.com/errawah/errawah.github.io/tree/master/chat", "_blank");
 			} else if ($(".modal-title").text() == "Typing Tutor") {
-				window.open("https://github.com/errawah/errawah.github.io/tree/master/mymodel/typing_tutor", "_blank");
+				window.open("https://github.com/errawah/errawah.github.io/tree/master/typing_tutor", "_blank");
 			} else if ($(".modal-title").text() == "English Devnagari Translator") {
 				window.open("https://github.com/errawah/errawah.github.io/tree/master/eng_dev", "_blank");
 			}
