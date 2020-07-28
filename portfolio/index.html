@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script language="javascript" src="../plugins/jquery/jquery-1.11.3.min.js"></script>
+    <script language="javascript" src="../plugins/jquery/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+
+
+    <!-- Fonts Links -->
+    <link href='//fonts.googleapis.com/css?family=Sonsie One' rel='stylesheet'>
+    <link href='//fonts.googleapis.com/css?family=Architects Daughter' rel='stylesheet'>
+    <link href='//fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    <link href='//fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+    <link href='//fonts.googleapis.com/css?family=Cookie' rel='stylesheet'>
+    <link href='//fonts.googleapis.com/css?family=Shrikhand' rel='stylesheet'>
+    <link href='//fonts.googleapis.com/css?family=Modak' rel='stylesheet'>
+    <link href='//fonts.googleapis.com/css?family=Lobster' rel='stylesheet'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet'>
+    <!-- End of Fonts Links -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!--script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+
+
+    <link rel="stylesheet" type="text/css" href="gk_style.css" />
+    <link rel="stylesheet" href="../animate/animate.min.css">
+
+
+    <script language="javascript" src="../parent/javascript/model.js"></script>
+    <script language="javascript" src="../parent/javascript/view.js"></script>
+    <script language="javascript" src="../parent/javascript/controller.js"></script>
+    <script language="javascript" src="../parent/javascript/error.js"></script>
+    <script language="javascript" src="../parent/javascript/user.js"></script>
+
+    <script language="javascript" src="javascript/model.js"></script>
+    <script language="javascript" src="javascript/view.js"></script>
+    <script language="javascript" src="javascript/controller.js"></script>
+    <script language="javascript" src="javascript/error.js"></script>
+
+    <title>My Portfolio</title>
+</head>
+
+<body>
+    <div class="jumbotron" id="menufield">
+        <div class="row">
+            <div class="col-sm-12">
+                <nav class="navbar navbar-expand-sm navbar-dark bg-light fixed-top">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon">
+                        </span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="nav navbar-nav" data-toggle="collapse" data-target="#collapsibleNavbar">
+                            <li class="nav-item">
+                                <a id="menu_home" href="#home" class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a id="menu_aboutme" href="#aboutme" class="nav-link">About Me</a>
+                            </li>
+                            <li class="nav-item">
+                                <a id="menu_technicalskills" href="#technicalskills" class="nav-link">Technical
+                                    Skills</a>
+                            </li>
+                            <li class="nav-item">
+                                <a id="menu_workhistory" href="#workhistory" class="nav-link">Work History</a>
+                            </li>
+                            <li class="nav-item">
+                                <a id="menu_projects" href="#projects" class="nav-link">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a id="menu_contact" href="#contact" class="nav-link">Contact Me</a>
+                            </li>
+                        </ul>
+
+
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="jumbotron" id="mainfield">
+        <div class="row">
+            <section id="home" class="col-sm-12 text-center">
+                <div class="col-sm-12 mask p-3">
+                    &nbsp;<br><br>
+                    <h1 class="myFade animated rotateInUpRight">Home</h1>
+                    <div class="para col-sm-10 p-3">
+                        <img src="image/myself.PNG" class="rounded-circle" width="200px" alt="" /><br>
+                        <div>Innovative & hardworking person seeking a career in Web Development
+                        </div>
+                        <img src="image/logo/html5.png" class="rotate-element rounded-circle" width="100px" alt="" />
+                        <img src="image/logo/css3.png" class="rotate-element rounded-circle" width="100px" alt="" />
+                        <img src="image/logo/javascript.png" class="rotate-element rounded-circle" width="100px"
+                            alt="" />
+                        <img src="image/logo/xml.png" class="rotate-element rounded-circle" width="100px" alt="" />
+                        <img src="image/logo/mysql.png" class="rotate-element rounded-circle" width="100px" alt="" />
+                        <img src="image/logo/perl.jpg" class="rotate-element rounded-circle" width="100px" alt="" />
+                        <img src="image/logo/php.png" class="rotate-element rounded-circle" width="100px" alt="" />
+                        <img src="image/logo/java.png" class="rotate-element rounded-circle" width="100px" alt="" />
+                        <img src="image/logo/github.jpg" class="rotate-element rounded-circle" width="100px" alt="" />
+                        <img src="image/logo/angular.png" class="rotate-element rounded-circle" width="100px" alt="" />
+                    </div>
+                </div>
+            </section>
+            <section id="aboutme" class="col-sm-12 text-justify">
+                <div class="col-sm-12 mask p-3">
+                    &nbsp;<br><br>
+                    <h1 class="myFade animated rotateInUpRight">About Me</h1>
+                    <div class="div1 col-sm-10 p-3">
+                        <table style="font-size:1.2em;" cellpadding=10>
+                            <tr>
+                                <td valign="top">
+                                    <img src="image/myself.PNG" width="200px" alt=""
+                                        style="float:left; border:2px outset red; border-radius:15px 15px 0 15px" />
+                                    <p>
+                                        Hi, I am Keshar Limbu, I have a strong passion for analyzing, problem-solving,
+                                        and coding. I am a hard-working and honest person looking for a rewarding career
+                                        in the Web programming sector. I am highly focused on a comprehensive knowledge
+                                        of different types of programming languages. I have self-taught myself with
+                                        different coding languages such as HTML5, Javascript, JQuery, Angular,
+                                        Bootstrap, CSS, PHP, MySQL, Perl, etc. and content-management programs such as
+                                        Wordpress, Drupal, etc through various books, online learning materials. I am
+                                        also familiar with version controlling software such as Github.
+
+                                    </p>
+                                    <p>
+                                        I can develop a fully working website as I have good knowledge on front-end as
+                                        well as back-end programming along with MySQL database.
+                                    </p>
+                                    <p>
+                                        Currently, I have enrolled for a Web developer course in JustIT to sharpen my
+                                        front-end and back-end development skills.
+                                    </p>
+                                    <p>
+                                        Feel free to leave comments in the Contact form at the end of this site and try
+                                        my works which are available under the "Projects" menu in this site.
+                                    </p>
+                                </td>
+                            </tr>
+
+                        </table>
+
+                    </div>
+                </div>
+            </section>
+            <section id="technicalskills" class="col-sm-12 text-center">
+                <div class="col-sm-12 mask p-3">
+                    &nbsp;<br><br>
+                    <h1 class="myFade animated rotateInUpRight">Technical Skills</h1>
+                    <div class="para col-sm-10 p-3">
+                        <img id="id_skill1_logo" src="image/logo/html5.png" alt="" />
+                        <img id="id_skill2_logo" src="image/logo/css3.png" alt="" />
+                        <img id="id_skill3_logo" src="image/logo/javascript.png" alt="" />
+                        <img id="id_skill4_logo" src="image/logo/xml.png" alt="" />
+                        <img id="id_skill5_logo" src="image/logo/mysql.png" alt="" />
+                        <img id="id_skill6_logo" src="image/logo/perl.jpg" alt="" />
+                        <img id="id_skill7_logo" src="image/logo/php.png" alt="" />
+                        <img id="id_skill8_logo" src="image/logo/java.png" alt="" />
+                        <img id="id_skill9_logo" src="image/logo/github.jpg" alt="" />
+                        <img id="id_skill10_logo" src="image/logo/angular.png" alt="" />
+                        <img id="id_skill11_logo" src="image/logo/react.png" alt="" />
+                    </div>
+                </div>
+            </section>
+            <section id="workhistory" class="col-sm-12">
+                <div class="container mask p-3 col-sm-12">
+                    &nbsp;<br><br>
+                    <h1 class="myFade animated rotateInUpRight">Work History</h1>
+                    <div class="para col-sm-10 p-3">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="main-timeline3">
+                                    <div class="timeline">
+                                        <a href="https://www.tesco.com" target="_blank" class="timeline-content">
+                                            <span class="year">Oct&nbsp;2019</span>
+                                            <h3 class="title">Duty Manager &#11162; Tesco Express</h3>
+                                            <div class="description">
+                                                <ul class="text-secondary pl-3">
+                                                    <li>Resumed my position as Duty Manager after the 12-weeks Digital
+                                                        Champion role</li>
+                                                    <li>Look after Tesco Express Store and make sure the store operates
+                                                        smoothly.</li>
+                                                </ul>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="timeline">
+                                        <a href="https://www.tesco.com" target="_blank" class="timeline-content">
+                                            <span class="year">Jul&nbsp;2019</span>
+                                            <h3 class="title">Digital Champion &#11162; Tesco Express</h3>
+                                            <div class="description">
+                                                Joined 12-weeks role to build digital skills for Tesco colleagues in my
+                                                Area by supporting them to use & experience different technology that
+                                                will help them in their personal and working life.
+
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="timeline">
+                                        <a href="https://www.tesco.com" target="_blank" class="timeline-content">
+                                            <span class="year">Jan&nbsp;2019</span>
+                                            <h3 class="title">Duty Manager &#11162; Tesco Express</h3>
+                                            <div class="description">
+                                                <ul class="text-secondary pl-3">
+                                                    <li>Promoted to Duty Manager</li>
+                                                    <li>Look after Tesco Express Store and make sure the store operates
+                                                        smoothly.</li>
+                                                </ul>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="timeline">
+                                        <a href="https://www.tesco.com" target="_blank" class="timeline-content">
+                                            <span class="year">Feb&nbsp;2018</span>
+                                            <h3 class="title">Customer Service Assistant &#11162; Tesco Express</h3>
+                                            <div class="description">
+                                                <ul class="text-secondary text-justify pl-3">
+                                                    <li>Make sure shop floor is clean & Tidy</li>
+                                                    <li>Fillup shelves with products and ensure the products are
+                                                        available for customers.</li>
+                                                    <li>Make sure correct labels are displayed for the products</li>
+                                                    <li>Til checkout services</li>
+                                                    <li>Accept deliveries for the store</li>
+                                                    <li>Help customers to find products</li>
+                                                </ul>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="timeline">
+                                        <a href="https://www.citycentrerecruitment.co.uk/" target="_blank"
+                                            class="timeline-content">
+                                            <span class="year">Apr&nbsp;2017</span>
+                                            <h3 class="title">Warehouse Operative &#11162; City Centre Recruitment
+                                                Agency</h3>
+                                            <div class="description">
+                                                <ul class="text-secondary pl-3">
+                                                    <li>Pack products</li>
+                                                    <li>Load products for delivery</li>
+                                                </ul>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="timeline">
+                                        <a href="https://www.swanstaff.co.uk/" target="_blank" class="timeline-content">
+                                            <span class="year">Nov&nbsp;2016</span>
+                                            <h3 class="title">Warehouse Operative &#11162; Swanstaff Recruitment Agency
+                                            </h3>
+                                            <div class="description">
+                                                <ul class="text-secondary pl-3">
+                                                    <li>Pack products</li>
+                                                    <li>Load products for delivery</li>
+                                                </ul>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div class="timeline">
+                                        <a href="https://www.coop.co.uk/" target="_blank" class="timeline-content">
+                                            <span class="year">Dec&nbsp;2015</span>
+                                            <h3 class="title">Customer Team Member &#11162; Co-operative Group</h3>
+                                            <div class="description">
+                                                <ul class="text-secondary text-justify pl-3">
+                                                    <li>Make sure shop floor is clean & Tidy</li>
+                                                    <li>Fillup shelves with products and ensure the products are
+                                                        available for customers.</li>
+                                                    <li>Make sure correct labels are displayed for the products</li>
+                                                    <li>Til checkout services</li>
+                                                    <li>Accept deliveries for the store</li>
+                                                    <li>Help customers to find products</li>
+                                                </ul>
+                                            </div>
+                                        </a>
+                                        </p>
+                                        </a>
+                                    </div>
+                                    <div class="timeline">
+                                        <a href="http://www.alphafp.hk/html/index.php" target="_blank"
+                                            class="timeline-content">
+                                            <span class="year">Jan&nbsp;2015</span>
+                                            <h3 class="title">Proof Reader / Sr. DTP Typesetter &#11162; Alpha Financial
+                                                Printing Press Ltd.</h3>
+                                            <div class="description">
+                                                <ul class="text-secondary text-justify pl-3">
+                                                    <li>Typeset financial documents such as IPOs, Annual Reports,
+                                                        Warrants, Circulars, etc. using Microsoft Office, Adobe
+                                                        Indesign, Adobe Acrobat, Adobe Photoshop, Sun Microsoft
+                                                        Xyvision, etc.</li>
+                                                    <li>Write in-house scripts to support Microsoft Office, Sun
+                                                        Microsoft Xyvision, Abode Indesign, Abobe Acrobat, etc. using
+                                                        Javascript, Perl, Java, VB Macros, XML, XSLT, etc.</li>
+                                                    <li>Proof-read financial documents suchas IPOs, Annual Reports,
+                                                        Warrants, Circulars, Edgar, etc.</li>
+                                                </ul>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="timeline">
+                                        <a href="http://www.ione.com.hk/" target="_blank" class="timeline-content">
+                                            <span class="year">Aug&nbsp;2010</span>
+                                            <h3 class="title">Sr. DTP Typesetter &#11162; iOne Financial Printing Press
+                                                Ltd.</h3>
+                                            <div class="description">
+                                                <ul class="text-secondary text-justify pl-3">
+                                                    <li>Typeset financial documents such as IPOs, Annual Reports,
+                                                        Warrants, Circulars, etc. using Microsoft Office, Adobe
+                                                        Indesign, Adobe Acrobat, Adobe Photoshop, Sun Microsoft
+                                                        Xyvision, etc.</li>
+                                                    <li>Write in-house scripts to support Microsoft Office, Sun
+                                                        Microsoft Xyvision, Abode Indesign, Abobe Acrobat, etc. using
+                                                        Javascript, Perl, Java, VB Macros, XML, XSLT, etc.</li>
+                                                </ul>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="timeline">
+                                        <a href="#" class="timeline-content">
+                                            <span class="year">Aug&nbsp;2008</span>
+                                            <h3 class="title">Web Developer &#11162; Cococabana Restaurant</h3>
+                                            <div class="description">
+                                                <ul class="text-secondary pl-3">
+                                                    <li>Maintain organization inventory by checking stock to determine
+                                                        supply levels, </li>
+                                                    <li>Uphold office schedule to ensure day-to-day business needs are
+                                                        met,</li>
+                                                    <li>Provide exceptional customer service by approtriately answering
+                                                        client concerns, forwarding messages & confirming appointments
+                                                        as necessary</li>
+                                                    <li>Maintain company website.</li>
+                                                </ul>
+
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="timeline">
+                                        <a href="#" class="timeline-content">
+                                            <span class="year">Sep&nbsp;2002</span>
+                                            <h3 class="title">Jr. DTP Typesetter &#11162; IFN Financial Printing Press
+                                                Ltd.</h3>
+                                            <div class="description">
+                                                Typeset financial documents such as IPOs, Annual Reports, Warrants,
+                                                Circulars, etc. using Microsoft Office, Adobe Indesign, Adobe Acrobat,
+                                                Adobe Photoshop, Sun Microsoft Xyvision, etc.
+
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="projects" class="col-sm-12">
+                <div class="col-sm-12 mask p-3">
+                    &nbsp;<br><br>
+                    <h1 class="myFade animated rotateInUpRight">Projects</h1>
+                    <div class="para col-sm-10 p-3">
+                        <div class="icon">
+                            <img id="id_solitaire_icon" src="image/solitaire.png" alt="Solitaire" class="icon" /><br>
+                            Solitaire
+                        </div>
+                        <div class="icon">
+                            <img id="id_chat_icon" src="image/chat.png" alt="Chat Messanger" class="icon" /><br>
+                            Simple Chat Application
+                        </div>
+                        <div class="icon">
+                            <img id="id_eng_dev_icon" src="image/engtonepali.png" alt="English To Devnagari Translation"
+                                class="icon" /><br>
+                            English-Devnagari Translator
+                        </div>
+                        <div class="icon">
+                            <img id="id_typing_tutor_icon" src="image/typingexercise.png" alt="Typing Exercise"
+                                class="icon" /><br>
+                            Typing Exercise
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact" class="col-sm-12">
+                <div class="col-sm-12 mask p-3">
+                    &nbsp;<br><br>
+                    <h1 class="myFade animated rotateInUpRight">Contact</h1>
+                    <div class="para col-sm-10 col-md-10 col-lg-8 p-3 text-center">
+                        <p
+                            style="font-size:1.5em; font-weight:bold; color:yellow; background-color:darkblue; border:2px outset blue; border-radius:10px;">
+                            If you want to reach me please fill up this form with your details and submit. I will try to
+                            contact you asap.</p>
+                        <label for="name">Name</label>
+                        <input type="text" id="id_name" name="name" class="fullwidth"
+                            placeholder="Your full name .."><br><br>
+                        <label for="email">Email</label>
+                        <input type="text" id="id_email" name="lastname" class="fullwidth"
+                            placeholder="Your email address .."><br><br>
+                        <label for="msg">Message</label>
+                        <textarea id="id_msg" name="msg" class="fullwidth" placeholder="Write something.."
+                            style="height:170px"></textarea><br><br>
+                        <button id="id_btn_contact_submit" class="fullwidth">Submit</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="blank col-sm-12">
+                <div class="col-sm-12 mask p-3"></div>
+            </section>
+        </div>
+    </div>
+    <div class="jumbotron">
+        <div class="row m-0">
+            <div class="footer col-sm-12">
+                <a href="cv.pdf" download="keshar_cv.pdf" data-toggle="popover" title="My CV Link"
+                    data-content="Click to download my CV.">
+                    <img src="./image/logo/cv.png" class="rounded-circle" width="40px" alt="Click to download my CV">
+                </a>
+                <a href="https://github.com/errawah/errawah.github.io" target="_blank" data-toggle="popover"
+                    title="My Github" data-content="Click to visit my github site.">
+                    <img src="./image/logo/github.jpg" class="rounded-circle" width="40px" alt="">
+                </a>&nbsp;&nbsp;
+                <a href="https://www.facebook.com/kesharisbo" target="_blank" data-toggle="popover"
+                    title="My Facebook Page" data-content="Click to view my facebook page.">
+                    <img src="./image/logo/facebook.png" class="rounded-circle" width="40px" alt="">
+                </a>&nbsp;&nbsp;
+                <a href="https://www.linkedin.com/in/keshar-limbu-48830698" target="_blank" data-toggle="popover"
+                    title="My Linkin Page" data-content="Click to visit my linkedIn page">
+                    <img src="./image/logo/linkedin.png" class="rounded-circle" width="40px" alt="">
+                </a>&nbsp;&nbsp;
+                <a href="https://twitter.com/errawah" target="_blank" data-toggle="popover" title="My Twitter"
+                    data-content="Click to visit my Twitter page">
+                    <img src="./image/logo/twitter.png" class="rounded-circle" width="40px" alt="">
+                </a>&nbsp;&nbsp;
+                <a href="https://www.instagram.com/errawah/" target="_blank" data-toggle="popover" title="My Instagram"
+                    data-content="Click to visit my Instagram page.">
+                    <img src="./image/logo/instagram.png" class="rounded-circle" width="40px" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div id="id_dialogbox" class="modal myFade animated rotateInUpRight" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content -->
+            <div class="modal-content" style="height:80vh; overflow-y:auto;">
+                <div class="modal-header m-0 p-2">
+                    <h4 class="modal-title">Summary</h4>
+                    <button id="id_dialogbox_exit" type="button" class="btn btn-danger"
+                        data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <p>Some text in the modal.</p>
+                </div>
+                <div class="modal-footer m-1 p-2">
+                    <button id="id_dialogbox_btn1" type="button" class="btn btn-primary fullwidth"
+                        data-dismiss="modal">OK</button>
+                    <button id="id_dialogbox_btn2" type="button" class="btn btn-primary fullwidth"
+                        data-dismiss="modal">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

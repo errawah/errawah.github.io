@@ -1,0 +1,88 @@
+HTML{
+	position:relative; 
+}
+BODY{
+	position:relative; padding-left:20px;
+	font-family:"Sofia"; font-size:16px;
+}
+
+#gk_MainID{ 
+	position:absolute; top:50px; left:20px; z-index:996; width:96%;	
+}
+
+.gk_LeftSpaceCLS{
+	position:fixed; background-color:white; left:0px; width:20px; height:100%; z-index:998;
+}
+
+.gk_BottomSpace{
+	position:relative; 
+	display:block;
+}
+
+.t1{
+	font-family:"Aclonica"; font-size:18pt; font-weight:bold; padding-top:5px;
+}
+
+.bh{
+	font-size:20px; font-weight:bold;
+	text-indent:0; text-align:left;
+}
+.bih{
+	font-size:20px; font-weight:bold; font-style:italic;
+	text-indent:0; text-align:left;
+}
+.ih{
+	font-size:20px; font-weight:normal; font-style:italic;
+	text-indent:0; text-align:left;
+}
+.h{
+	font-size:20px;
+	text-indent:0; text-align:left;
+}
+p{
+	font-weight:normal;
+}
+
+
+.in0{
+	position:relative; left:0px;
+}
+.in2{
+	position:relative; left:40px;
+}
+.in4{
+	position:relative; left:80px;
+}
+.in6{
+	position:relative; margin-left:120px;
+}
+.in8{
+	position:relative; margin-left:120px;
+}
+
+.fin{
+	position:relative; text-indent:40px;
+}
+.xin{
+	position:relative; text-indent:0px;
+}
+
+.em{
+	font-family:"Sonsie One"; font-size:10pt; font-weight:bold;
+}
+.c{
+	text-align:center;
+}
+.l{
+	text-align:left;
+}
+.r{
+	text-align:right;
+}
+.u{
+	text-decoration:underline;
+}
+.gk_SearchCLS{
+	position:relative; margin:5px; font-family:Arial; font-size:14px;
+	color:black; border-radius:5px; width:95%;
+}

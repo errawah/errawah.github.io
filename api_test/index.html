@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <script language="javascript" src="../plugins/jquery/jquery-1.11.3.min.js"></script>
+    <script language="javascript" src="../plugins/jquery/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!--script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <title>Document</title>
+
+    <script>
+    
+    $.ajax({
+        type: 'POST',
+        url: 'https://opendata.nationalrail.co.uk/authenticate HTTP/1.1',
+        headers:{
+            'Content-Type': 'application/x-www-form-urlencoded',
+            'Accept': 'application/json, text/plain, */*',
+            'Raw payload': 'username=kesharlimbu&password=Nayaran!4',
+        },
+		success: function(response) { //returned data from server if successful
+			console.log("Success");
+            console.log(response);
+            
+		},
+		error: function(error) {
+            console.log("Failed");
+			console.log(error);
+		},
+
+	});
+
+
+    // $.ajax({
+    //     type: 'GET',
+    //     url: 'https://opendata.nationalrail.co.uk/api/staticfeeds/2.0/routeing HTTP/1.1',
+    //     headers:{
+    //         'Content-Type': 'application/json',
+    //         'Accept': '*/*',
+    //         'X-Auth-Token': 'errawah@hotmail.com:2ea74ffb-0fbb-4341-bd95-189f5d62ec1e',
+    //     },
+        
+	// 	success: function(response) { //returned data from server if successful
+	// 		console.log("Success");
+    //         console.log(response);
+            
+	// 	},
+	// 	error: function(error) {
+    //         console.log("Failed");
+	// 		console.log(error);
+	// 	},
+
+	// });
+
+    
+
+    </script>
+
+</head>
+<body>
+
+
+
+
+
+</body>
+</html>

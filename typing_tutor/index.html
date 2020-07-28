@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  
+  
+  
+  <script language="javascript" src="../plugins/jquery/jquery-1.11.3.min.js"></script>
+  <script language="javascript" src="../plugins/jquery/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <!--script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    
+
+  <!-- Fonts Links -->
+  <link href='//fonts.googleapis.com/css?family=Sonsie One' rel='stylesheet'>
+  <link href='//fonts.googleapis.com/css?family=Architects Daughter' rel='stylesheet'>
+  <link href='//fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+  <link href='//fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+  <link href='//fonts.googleapis.com/css?family=Cookie' rel='stylesheet'>
+  <link href='//fonts.googleapis.com/css?family=Shrikhand' rel='stylesheet'>
+  <link href='//fonts.googleapis.com/css?family=Modak' rel='stylesheet'>
+  <link href='//fonts.googleapis.com/css?family=Lobster' rel='stylesheet'>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet'>
+  <!-- End of Fonts Links -->
+
+  <link rel="stylesheet" type="text/css" href="../gk_itemformat.css" />
+  <link rel="stylesheet" type="text/css" href="gk_style.css" />
+  
+  <script language="javascript" src="../parent/javascript/model.js"></script>
+  <script language="javascript" src="../parent/javascript/view.js"></script>
+  <script language="javascript" src="../parent/javascript/controller.js"></script>
+  <script language="javascript" src="../parent/javascript/error.js"></script>
+  <script language="javascript" src="../parent/javascript/user.js"></script>
+
+  <script language="javascript" src="javascript/model.js"></script>
+  <script language="javascript" src="javascript/view.js"></script>
+  <script language="javascript" src="javascript/controller.js"></script>
+  <script language="javascript" src="javascript/error.js"></script>
+</head>
+
+<body>
+  <div id="id_screen1" class="container-fluid col-lg-8 p-3">
+    <div class="row justify-content-between">
+      <div id="id_dropdown" class="dropdown ml-2 mt-2">
+        <button class="btn dropdown-toggle" data-toggle="dropdown" style="font-size:16pt; background-color:brown; color:yellow;">
+          Typing Lessons
+        </button>
+        <div class="dropdown-menu">
+          <div id="id_lesson01" class="dropdown-item">Lesson 1</div>
+          <div id="id_lesson02" class="dropdown-item">Lesson 2</div>
+          <div id="id_lesson03" class="dropdown-item">Lesson 3</div>
+          <div id="id_lesson04" class="dropdown-item">Lesson 4</div>
+          <div id="id_lesson05" class="dropdown-item">Lesson 5</div>
+          <div id="id_lesson06" class="dropdown-item">Lesson 6</div>
+          <div id="id_lesson07" class="dropdown-item">Lesson 7</div>
+          <div id="id_lesson08" class="dropdown-item">Lesson 8</div>
+          <div id="id_lesson09" class="dropdown-item">Lesson 9</div>
+          <div id="id_lesson10" class="dropdown-item">Lesson 10</div>
+          <div id="id_lesson11" class="dropdown-item">Lesson 11</div>
+          <div id="id_lesson12" class="dropdown-item">Lesson 12</div>
+
+        </div>
+      </div>
+      <div id="id_title" class="p-2 m-0 text-center"></div>
+      <div></div>
+    </div>
+    <div class="row p-2">
+      <div id="id_selection_display" class="col-lg-12 m-0 p-3">
+        <div>
+          This app is designed to improve your typing skills. It contains Lessons that focuses in improving your typing speed and accuracy. <br><br>
+          Please follow the picture illustrated below on how to use your fingers to type correctly.
+        </div>
+        <div style="text-align:center;">&nbsp;<br>
+          <img src="picture/typing001.png" alt="">
+        </div>
+        <div>&nbsp;<br>
+          Select the Lesson you intent to practice and click on Start Button.
+        </div>
+        
+      </div>
+    </div>
+    <div class="row pr-2 pl-2">
+      <button id="id_startbtn" name='start_btn' class="btn-lg col-lg-12">Start</button>
+    </div>
+  </div>
+  
+  <!-- ======== end of selection_box_id ========== -->
+
+  <div id="id_screen2" class="container-fluid col-lg-8 p-3">
+    <div class="row p-2">
+        <div id="id_timestamp" class="col-lg-12 text-right m-0 p-1">00:00</div>
+    </div>
+    <div class="row p-2">
+      <div id="id_drillbox" class="col-lg-12 bg-primary m-0 p-0">
+        <div class="header col-lg-12 text-center">
+          Typing Drill
+        </div>
+        <div id="id_source" class="field col-lg-12">
+          
+        </div>
+        <div class="header col-lg-12 text-center">Your Input</div>
+        <div class="field col-lg-12">
+          <span id="id_type"></span><span class="blink_me">|</span>
+        </div>
+        <!-- ========== End of drill layout =========== -->
+      </div>
+      <button id="id_endbtn" class="col-lg-12 btn-lg" data-toggle="modal" data-target="#myModal">End</button>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div id="myModal" class="modal" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <div class="modal-header m-0 p-2">
+          <h4 class="modal-title">Summary</h4>
+          <button id="id_exit_myModal" type="button" class="btn btn-danger" data-dismiss="modal">&times;</button>  
+        </div>
+        <div class="modal-body">
+          <p>Some text in the modal.</p>
+        </div>
+        <div class="modal-footer m-1 p-2">
+          <button id="id_close_myModal" type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

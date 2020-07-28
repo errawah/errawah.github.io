@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+	<meta name="description" content="an interesting single player card game" />
+	<meta name="keywords" content="play card game solitaire" />
+	<meta name="author" content="Keshar Limbu" />
+
+	<!-- saved from url=(0014)about:internet -->
+	<title>Solitaire</title>
+
+	<!-- Google Links -->
+	<link href='//fonts.googleapis.com/css?family=Sonsie One' rel='stylesheet'>
+	<link href='//fonts.googleapis.com/css?family=Architects Daughter' rel='stylesheet'>
+	<link href='//fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+	<link href='//fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+	<link href='//fonts.googleapis.com/css?family=Cookie' rel='stylesheet'>
+	<link href='//fonts.googleapis.com/css?family=Shrikhand' rel='stylesheet'>
+	<!-- End of Google Links -->
+
+	<script language="javascript" src="../plugins/jquery/jquery-1.11.3.min.js"></script>
+	<script language="javascript" src="../plugins/jquery/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+	<link rel="stylesheet" href="../plugins/bootstrap/3.3.7/css/bootstrap.min.css" />
+	<script type="text/javascript" src="../plugins/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
+	<link rel="stylesheet" type="text/css" href="../gk_itemformat.css" />
+	<link rel="stylesheet" type="text/css" href="gk_style.css" />
+
+	<script language="javascript" src="../parent/javascript/model.js"></script>
+	<script language="javascript" src="../parent/javascript/view.js"></script>
+	<script language="javascript" src="../parent/javascript/controller.js"></script>
+	<script language="javascript" src="../parent/javascript/error.js"></script>
+	<script language="javascript" src="../parent/javascript/user.js"></script>
+
+	<script language="javascript" src="javascript/model.js"></script>
+	<script language="javascript" src="javascript/view.js"></script>
+	<script language="javascript" src="javascript/controller.js"></script>
+	<script language="javascript" src="javascript/error.js"></script>
+
+</head>
+
+<body id="gk_Body">
+
+	<div class="container">
+		<div class="row" style="border-radius:5px;">
+			<div class="header col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<div id="gk_MenuID">
+					<span id="gk_Suffle" class="gk_AnchorBlock">Suffle</span>
+					<span id="gk_Help" class="gk_AnchorBlock">Help</span>
+					<span id="gk_About" class="gk_AnchorBlock">About</span>
+				</div>
+
+			</div> <!-- end of column -->
+			<div id="id_page" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<table>
+					<tbody>
+						<tr>
+							<td>
+								<table>
+									<tbody id="id_block1">
+										<tr>
+											<td>
+												<div id="gk_DeckID" class="cls_card"></div>
+											</td>
+											<td>
+												<div id="gk_DealID" class="cls_card"></div>
+											</td>
+											<td width="71px">&nbsp;</td>
+											<td id="gk_Slot1ID">
+												<div id="spade_0" class="cls_card" category="spade" number="0"></div>
+											</td>
+											<td id="gk_Slot2ID">
+												<div id="club_0" class="cls_card" category="club" number="0"></div>
+											</td>
+											<td id="gk_Slot3ID">
+												<div id="diamond_0" class="cls_card" category="diamond" number="0">
+												</div>
+											</td>
+											<td id="gk_Slot4ID">
+												<div id="heart_0" class="cls_card" category="heart" number="0"></div>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</td>
+						</tr>
+						<tr>
+							<td class="gk_CardspaceCLS">
+								&nbsp;
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<table>
+									<tbody id="id_block3">
+										<tr>
+											<td>
+												<div id="id_col1" class="cls_card"></div>
+											</td>
+											<td>
+												<div id="id_col2" class="cls_card"></div>
+											</td>
+											<td>
+												<div id="id_col3" class="cls_card"></div>
+											</td>
+											<td>
+												<div id="id_col4" class="cls_card"></div>
+											</td>
+											<td>
+												<div id="id_col5" class="cls_card"></div>
+											</td>
+											<td>
+												<div id="id_col6" class="cls_card"></div>
+											</td>
+											<td>
+												<div id="id_col7" class="cls_card"></div>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div><!-- end of column -->
+		</div><!-- end of row -->
+	</div><!-- end of container -->
+
+</body>
+
+</html>

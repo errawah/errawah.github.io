@@ -1,0 +1,51 @@
+.jumbotron{
+    height:90vh;
+    background-image:url("../picture/plain001.jpg"); 
+    background-position:center; 
+    background-repeat:no-repeat; 
+    background-size:cover; margin:0px; 
+    background-attachment:fixed;
+}
+
+table{
+    color:white; height:100%; border:2px outset white;
+}
+
+td{
+    border:2px outset white;
+}
+
+#id_main1, #id_main2, #id_main3{
+    background-image:url("../picture/back004.jpg"); 
+    background-position:center; 
+    background-repeat:no-repeat; 
+    background-size:cover; margin:0px; 
+    background-attachment:fixed;
+    
+    height:25vh; border:2px outset white;
+}
+
+.title{
+    font-family:Lobster; font-size:18pt; color:yellow;
+}
+
+textarea{
+  background:white; font-family:Times; font-size:16px; font-weight:normal; 
+  text-align:left; color:black; width:100%; height:75%;
+  border:4px inset grey;
+}
+
+p{
+	font-family:Arial;
+}
+
+li{
+	font-family:Arial;
+}
+
+#alternate_id{
+    height:23vh; color:white;
+    overflow-y:auto;
+}
+
+

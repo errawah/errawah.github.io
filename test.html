@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        class myArray{
+            swapElement = function(array, position1, position2){
+                let temp = array[position1];
+                array[position1] = array[position2];
+                array[position2] = temp;
+                return array;
+            }
+        }
+        let aa = new myArray();
+        let myarray = ["one", "two", "three"];
+        console.log(myarray);
+        console.log(aa.swapElement(myarray, 0, 2) );
+        // console.log(swapElement(myarray, 1, 2) );
+    </script>
+
+
+</body>
+</html>

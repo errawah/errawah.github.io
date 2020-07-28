@@ -1,0 +1,254 @@
+
+.header{
+	position:fixed; left:10px; top:0px; width:98%; margin:0px;
+	font-family:"Aclonica"; font-size:25pt; font-weight:bold; font-style:"italic"; padding-top:0px;
+	box-shadow:5px 5px 15px black;
+	background-color:navy; color:white; 
+	z-index:999;
+}
+
+.footer{
+	position:fixed; left:10px; bottom:0px; width:98%;  
+	background-color:navy; color:white; margin-top:5px; padding:10px;
+	font-family:Times; font-size:14px; box-shadow:5px -5px 5px black;
+	z-index:999;
+}
+
+
+
+#gk_MainID{ 
+	position:absolute; top:50px; left:20px; width:98%; min-height:600px; 
+}
+
+#gk_MenuID{ 
+	/*close menu when clicked anywhere in the menu*/
+	position:relative; padding:8px 0px; width:0; display:inline;
+	font-size:12px; color:white;
+	z-index:999;
+}
+
+#gk_MenuID .gk_AnchorBlock{
+	text-decoration:none;
+	display:inline-block; padding:8px;
+	border-radius:15px 5px 15px 5px; color:white;
+}
+#gk_MenuID .gk_AnchorBlock:hover, .offcanvas a:focus{
+	text-decoration:none;
+	background: lightblue;
+	color: black;
+}
+
+#gk_MenuControlID{
+	font-size:18pt;
+	color:blue; display:inline-block; float:left;
+	border-radius: 5px; padding:4px;
+}
+
+#gk_MenuControlID:hover{
+	text-decoration:none;
+	background-color:lightblue;
+}
+
+
+#gk_StageID{
+	position:relative; width:98%; height:100%;
+	padding:20px; padding-bottom:200px; //border-radius:5px; 
+	box-shadow:5px 5px 5px black;
+	background: yellow; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(left,lightblue, white); /*Safari 5.1-6*/
+	background: -o-linear-gradient(left,lightblue, white); /*Opera 11.1-12*/
+	background: -moz-linear-gradient(left,lightblue, white); /*Fx 3.6-15*/
+	background: linear-gradient(to right, lightblue, white); /*Standard*/
+	transition: margin-left .5s;
+}
+
+img{
+	border:3px outset gray; border-radius:10px; margin:15px;
+}
+ #gk_PageNum{
+	 display:inline-block; width:50px;
+}
+
+
+ 
+#gk_MenuID::-webkit-scrollbar {
+    width: 1em;
+}
+ 
+#gk_MenuID::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+#gk_MenuID::-webkit-scrollbar-thumb {
+  background-color: red;
+  outline: 2px solid green;
+}
+
+a{
+	text-decoration:none;
+}
+
+a:hover{
+	text-decoration:none; padding:5px;
+	border-radius:15px 5px 15px 5px;
+	background-color:green;
+	color:red;
+}
+
+
+/*================================*/
+
+*{
+	border-radius:5px;
+}
+
+HTML{
+	width:100%; height:100%;
+}
+
+BODY{
+	position:absolute; padding:0px; margin:auto; display:block;
+	font-family:Arial; font-size:16px; font-weight:normal; color:white;
+	line-height:1.5; width:100%; height:100%;
+	background: lightblue; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(left,blue, white); /*Safari 5.1-6*/
+	background: -o-linear-gradient(left,blue, white); /*Opera 11.1-12*/
+	background: -moz-linear-gradient(left,blue, white); /*Fx 3.6-15*/
+	background: linear-gradient(to right, blue, white); /*Standard*/
+}
+
+#gk_DragID{
+	position:relative; display:block;
+	background-color:silver;  color:white; border:2px solid black;
+	opacity: 0.5; 
+	filter: alpha(opacity=50); /* For IE8 and earlier */
+	width:71px; height:95px;
+}
+
+
+#id_processmessage{
+	position:absolute; padding:10px; margin:auto; 
+	width:100%; height:100%;
+	display:none; text-align:center; vertical-align:middle;	
+}
+
+.cls_selector{
+	position:relative; left:0px; top:0px;
+	display:block; background-color:green;
+	opacity: 0.3;
+	filter: alpha(opacity=10); /* For IE8 and earlier */
+	border:2px solid white;
+}
+/* ===========================================================================*/
+
+TABLE{
+	padding:3px;
+}
+
+TD{
+	padding:3px;
+}
+
+
+#id_page{
+	position:absolute; display:block; width:95%; height:800px; top:50px; padding:5px;
+}
+
+.cls_card{
+	position:relative;
+	width:71px; height:95px;
+	border:1px dotted black;
+}
+.gk_CardspaceCLS{
+	position:relative;
+	width:71px; height:95px;	
+}
+
+.cls_card:hover{
+	cursor:pointer;
+}
+
+
+#spade_0{
+	position:relative; padding:0px;
+	background-image:url("picture/regular/spade_0.gif"); background-size:cover;
+	background-position:center; background-repeat:no-repeat;
+	border:2px inset black;
+	background-color:white;
+}
+
+#club_0{
+	position:relative; padding:0px;
+	background-image:url("picture/regular/club_0.gif"); background-size:cover;
+	background-position:center; background-repeat:no-repeat;
+	border:2px inset black;
+	background-color:white;
+}
+
+#diamond_0{
+	position:relative; padding:0px;
+	background-image:url("picture/regular/diamond_0.gif"); background-size:cover;
+	background-position:center; background-repeat:no-repeat;
+	border:2px inset black;
+	background-color:white;
+}
+
+#heart_0{
+	position:relative; padding:0px;
+	background-image:url("picture/regular/heart_0.gif"); background-size:cover;
+	background-position:center; background-repeat:no-repeat;
+	border:2px inset black;
+	background-color:white;
+}
+
+#gk_DeckID{
+	position:relative;
+	z-index:100;
+}
+
+#gk_DealID{
+	position:relative;
+	border:2px outset black;
+	z-index:1;
+}
+
+#gk_Slot1ID, #gk_Slot2ID, #gk_Slot3ID, #gk_Slot4ID{
+	position:relative;
+}
+
+
+@media screen and (max-width: 552px){
+	.cls_card{
+		position:relative;
+		width:40px; height:55px;
+	}
+	.gk_CardspaceCLS{
+		position:relative;
+		width:40px; height:55px;
+	}
+	#gk_DragID{
+		position:relative;
+		width:40px; height:55px;
+		background-color:silver;  color:white; border:2px solid black;
+		opacity: 0.5; 
+		filter: alpha(opacity=50); // For IE8 and earlier //
+	}
+}
+
+.dialogbox{
+    background-color:silver; color:black; 
+    padding:0px; margin:auto; 
+    font-size:1em; text-align:center; 
+    border-color:black; 
+    border-radius:50px; border:2px outset gray; 
+}
+
+.dialogbox > .head{
+    background-color:blue; color:white; 
+    border-radius:50px 50px 0 0; 
+    padding:6px; font-weight:bold; 
+}
+
+.dialogbox p{
+    text-align:center; 
+}

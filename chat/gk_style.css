@@ -1,0 +1,133 @@
+body, html, .row{
+    height:100%; 
+    font-family: lobster; 
+    /* font-size:20px;  */
+    
+}
+
+#id_memberslist_title{
+    width:80%;
+}
+
+/* Begin Cursor blinker */
+.blink_me{
+    animation: blinker 1s linear infinite;
+}
+@keyframes blinker{
+    50%{
+        opacity: 0;
+    }
+}
+/* End of Cursor blinker */
+
+input{
+    border:2px inset gray; border-radius:5px; height:40px; padding:10px;
+}
+
+button{
+    color:white; border-radius:5px; height:40px;
+}
+
+label{
+    font-family:Arial; font-weight:bold;
+}
+
+.fullwidth{
+    width:100%; font-family:Arial; 
+}
+
+.textheight{
+    height:30px;
+}
+
+.quarterheight{
+    height: 25vh;
+}
+
+#id_frame1{
+    min-height:80vh; margin:auto;
+    border:2px outset blue;
+}
+
+#id_frame_signin{
+    min-height:80vh;
+    border:2px outset blue;
+}
+
+#id_frame_register{
+    min-height:80vh;
+    border:2px outset gray;
+}
+
+#id_frame_memberlists{
+    min-height:80vh;
+    border:2px outset gray;
+}
+
+#id_frame_chat{
+    min-height:80vh;
+    border:2px outset gray;
+}
+
+
+#id_chat_textdiv{
+    height:80vh; 
+    border-radius:10px;
+    border:2px outset gray;
+    overflow-y:auto;
+}
+
+#id_reply_div{
+    position:absolute; display:inline-block; text-align:justify;
+    bottom:0px; left:8px;
+    width:84%; border-radius:5px;
+    background-color:white; border:2px inset gray;
+    
+}
+
+#id_btn_send{
+    position:absolute; 
+    bottom:0px; right:8px;
+    width:12%; height:5%; border-radius:5px;
+}
+
+.navbar{
+    border-radius:0px 0px 10px 10px;
+}
+
+.cls_msg_sent{
+    text-align:left;
+    margin-right:5px; margin-left:55%;
+    background-color:lightgreen; color:black; 
+    border-radius: 15px 0 15px 15px;
+    padding:10px;
+}
+
+.cls_msg_received{
+    text-align:left;
+    margin-left:5px; margin-right:55%;
+    background-color:lightblue; color:black; 
+    border-radius: 0 15px 15px 15px;
+    padding:10px; 
+}
+ .cls_msg_date{
+     text-align:center;
+     width:100%; background-color:blue; color:yellow;
+     padding:10px;
+ }
+
+
+.new_message_indicator{
+    background-color:green; color:white;
+    border:1px outset red;
+    
+}
+
+/* ==== Start of Vertical Alignment ==== */
+.vertical-center {
+    /* position: absolute; */
+    margin:auto; top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+/* ==== End of Vertical Alignment */
