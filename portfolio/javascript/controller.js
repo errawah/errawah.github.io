@@ -78,7 +78,7 @@ Controller.prototype.gk_MouseClicked = function (e, the_element, move_element) {
 			$("#id_dialogbox_btn2").text("Source Code");
 
 			$(".modal-title").text("Solitaire");
-			$(".modal-body").html('<p style="text-align:center"><img src="image/solitaire.png" width="300px" alt="Solitaire" align="middle" /></p><p>This is a card game named Solitaire. This game consists of a deck of card. As you start the game, the deck of card gets suffled. Arrange the cards by dragging from the deck of cards to respective place sequentially but with alternate colours.<br><br>I have used <em>HTML5</em>, <em>CSS3</em>, <em>Javascript</em>, <em>Jquery</em> and <em>bootstrap 4</em> to build this game.</p>');
+			$(".modal-body").html('<p style="text-align:center"><img src="image/solitaire.png" width="300px" alt="Solitaire" align="middle" /></p><p>This is a card game named Solitaire. This game consists of a deck of card. As you start the game, the deck of card gets suffled. Arrange the cards by dragging from the deck of cards to respective place sequentially but with alternate colours.<br><br>I have used <em>HTML5</em>, <em>CSS3</em>, <em>JavaScript</em>, <em>JQuery</em> and <em>Bootstrap 4</em> to build this game.</p>');
 			break;
 		case "id_chat_icon":
 			$("#id_dialogbox").show({ show: true });
@@ -89,7 +89,7 @@ Controller.prototype.gk_MouseClicked = function (e, the_element, move_element) {
 			$("#id_dialogbox_btn2").text("Source Code");
 
 			$(".modal-title").text("Chat Application");
-			$(".modal-body").html('<p style="text-align:center"><img src="image/chat.png" width="300px" alt="Solitaire" align="middle" /></p><p>This is a chat application designed to chat between a group of registered members. You must first register yourself inoder to be able to chat with other registered members.  <br><br>I have used <em>HTML5</em>, <em>bootstrap 4</em>, <em>CSS3</em>, <em>Javascript</em>, <em>Jquery</em> as client-side programming to design the layout and <em>PHP</em> for server-side programming to connect to <em>mysql</em> database server. <br><br>I have used <em>Ajax</em> to communicate between client-side and server-side. I have used <em>JSON</em> format to transfer data from server to client and vice versa.</p> ');
+			$(".modal-body").html('<p style="text-align:center"><img src="image/chat.png" width="300px" alt="Solitaire" align="middle" /></p><p>This is a chat application designed to chat between a group of registered members. You must first register yourself inoder to be able to chat with other registered members.  <br><br>I have used <em>HTML5</em>, <em>Bootstrap 4</em>, <em>CSS3</em>, <em>JavaScript</em>, <em>JQuery</em> as client-side programming to design the layout and <em>PHP</em> for server-side programming to connect to <em>mysql</em> database server. <br><br>I have used <em>Ajax</em> to communicate between client-side and server-side. I have used <em>JSON</em> format to transfer data from server to client and vice versa.</p> ');
 			break;
 		case "id_eng_dev_icon":
 			$("#id_dialogbox").show({ show: true });
@@ -100,7 +100,7 @@ Controller.prototype.gk_MouseClicked = function (e, the_element, move_element) {
 			$("#id_dialogbox_btn2").text("Source Code");
 
 			$(".modal-title").text("English Devnagari Translator");
-			$(".modal-body").html('<p style="text-align:center"><img src="image/engtonepali.png" width="300px" alt="Solitaire" align="middle" /></p><p>This is a software that helps to convert English script to devnagari script. Type English letters in the first box and you will see translated letters in the second box. A helping translation table is displayed at the bottom box. <br><br>I have used <em>HTML5</em>, <em>CSS3</em>, <em>Javascript</em>, <em>Jquery</em> and <em>bootstrap 4</em> to build this software.</p>');
+			$(".modal-body").html('<p style="text-align:center"><img src="image/engtonepali.png" width="300px" alt="Solitaire" align="middle" /></p><p>This is a software that helps to convert English script to devnagari script. Type English letters in the first box and you will see translated letters in the second box. A helping translation table is displayed at the bottom box. <br><br>I have used <em>HTML5</em>, <em>CSS3</em>, <em>JavaScript</em>, <em>JQuery</em> and <em>Bootstrap 4</em> to build this software.</p>');
 			break;
 		case "id_typing_tutor_icon":
 			$("#id_dialogbox").show({ show: true });
@@ -111,7 +111,7 @@ Controller.prototype.gk_MouseClicked = function (e, the_element, move_element) {
 			$("#id_dialogbox_btn2").text("Source Code");
 
 			$(".modal-title").text("Typing Tutor");
-			$(".modal-body").html('<p style="text-align:center"><img src="image/typingexercise.png" width="300px" alt="Solitaire" align="middle" /></p><p>This is a software that helps improve typing skills. This consists of Lessons that are specially designed to improve your typing skills.<br><br>I have used <em>HTML5</em>, <em>CSS3</em>, <em>Javascript</em>, <em>Jquery</em> and <em>bootstrap 4</em> to build this software.</p>');
+			$(".modal-body").html('<p style="text-align:center"><img src="image/typingexercise.png" width="300px" alt="Solitaire" align="middle" /></p><p>This is a software that helps improve typing skills. This consists of Lessons that are specially designed to improve your typing skills.<br><br>I have used <em>HTML5</em>, <em>CSS3</em>, <em>JavaScript</em>, <em>JQuery</em> and <em>Bootstrap 4</em> to build this software.</p>');
 			break;
 		case "id_folktales_icon":
 			$("#id_dialogbox").show({ show: true });
@@ -122,7 +122,7 @@ Controller.prototype.gk_MouseClicked = function (e, the_element, move_element) {
 			$("#id_dialogbox_btn2").text("Source Code");
 
 			$(".modal-title").text("Folk Tales");
-			$(".modal-body").html('<p style="text-align:center"><img src="image/folktales.png" width="300px" alt="Solitaire" align="middle" /></p><p>This website contains a collection of ancient famous folktales with a hidden morale.  <br><br>I have used <em>HTML5</em>, <em>CSS3</em>, <em>Javascript</em>, <em>Jquery</em> and <em>AngularJS</em> to build this software.</p>');
+			$(".modal-body").html('<p style="text-align:center"><img src="image/folktales.png" width="300px" alt="Solitaire" align="middle" /></p><p>This website contains a collection of ancient famous folktales with a hidden morale.  <br><br>I have used <em>HTML5</em>, <em>CSS3</em>, <em>JavaScript</em>, <em>JQuery</em> and <em>AngularJS</em> to build this software.</p>');
 			break;
 		case "id_btn_contact_submit":
 			var valid_name, valid_email, valid_msg;
