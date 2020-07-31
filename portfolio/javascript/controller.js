@@ -13,10 +13,6 @@ function Controller() { //class
 		html : true,
 	});
 
-	$("#home .para").animate({
-		"font-size": "1.5em",
-	}, 2000);
-
 };
 
 Controller.prototype = Object.create(ParentController.prototype);
@@ -28,46 +24,50 @@ Controller.prototype.gk_MouseClicked = function (e, the_element, move_element) {
 
 	switch (id) {
 		case "menu_home":
-			$("#home .myFade").hide(1000, function () {
+			$("#home .myFade").hide(0, function () {
 				$(this).show(function () {
 					$(this).fadeIn(2000);
 				});
 			});
 			break;
 		case "menu_aboutme":
-			$("#aboutme .myFade").hide(1000, function () {
+			$("#aboutme .myFade").hide(0, function () {
 				$(this).show(function () {
 					$(this).fadeIn(2000);
 				});
 			});
 			break;
 		case "menu_technicalskills":
-			$("#technicalskills .myFade").hide(1000, function () {
+			$("#technicalskills .myFade").hide(0, function () {
 				$(this).show(function () {
 					$(this).fadeIn(2000);
 				});
 			});
 			break;
 		case "menu_workhistory":
-			$("#workhistory .myFade").hide(1000, function () {
-				$(this).show(1000, function () {
+			$("#workhistory .myFade").hide(0, function () {
+				$(this).show(function () {
 					$(this).fadeIn(2000);
 				});
 			});
 			break;
 		case "menu_projects":
-			$("#projects .myFade").hide(1000, function () {
+			$("#projects .myFade").hide(0, function () {
 				$(this).show(function () {
 					$(this).fadeIn(2000);
 				});
 			});
 			break;
 		case "menu_contact":
-			$("#contact .myFade").hide(1000, function () {
+			$("#contact .myFade").hide(0, function () {
 				$(this).show(function () {
 					$(this).fadeIn(2000);
 				});
 			});
+			
+			
+
+			
 			break;
 		case "id_solitaire_icon":
 			$("#id_dialogbox").show({ show: true });
