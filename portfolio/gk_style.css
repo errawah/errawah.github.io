@@ -27,12 +27,12 @@ label, textarea, input{
 }
 
 #home .para {
-    background-color:purple; font-family:Times; font-size:1.5em; font-weight:bold;
-    margin:auto; 
+    background-color:purple; font-family:cookie; font-size:2em;
+    margin:auto; letter-spacing:2px; 
     border:2px outset yellow; 
     border-radius:50px 10px 50px 10px; 
     color:white;
-    text-shadow: 4px -4px 10px black;
+    text-shadow: 4px -4px 2px black;
 }
 
 #aboutme{
