@@ -188,16 +188,18 @@ Controller.prototype.gk_MouseUp = function (e, the_element) {
 
 Controller.prototype.gk_MouseOver = function (e, the_element) {
 	var element_id = $(the_element).attr("id");
-	if (element_id == "id_solitaire_icon" || element_id == "id_chat_icon" || element_id == "id_eng_dev_icon" || element_id == "id_typing_tutor_icon" || element_id == "id_folktales_icon") {
-		$(the_element).css({
-			"border": "2px outset brown",
-			"cursor": "pointer",
-		});
-	}
-	if (element_id.includes("logo")){
-		$(the_element).hide(0, function(){
-			$(this).show(0);
-		});
+	if (element_id){
+		if (element_id == "id_solitaire_icon" || element_id == "id_chat_icon" || element_id == "id_eng_dev_icon" || element_id == "id_typing_tutor_icon" || element_id == "id_folktales_icon") {
+			$(the_element).css({
+				"border": "2px outset brown",
+				"cursor": "pointer",
+			});
+		}
+		if (element_id.includes("logo")){
+			$(the_element).hide(0, function(){
+				$(this).show(0);
+			});
+		}
 	}
 };
 

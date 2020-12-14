@@ -993,7 +993,6 @@ Controller.prototype.gk_MouseUp = function (e, the_element, move_element) {
 							} else {
 								let invalidCardColor = card_color => card_color != drop.colour;
 								let filteredCardColor = valid_colors.filter(invalidCardColor);
-								console.log(drop.number);
 								alert("Invalid move. You are only allowed to move card " + (valid_drop_number - 2) + " of " + filteredCardColor + " colour here. Please the game rules properly.");
 							}
 						}
